@@ -9,18 +9,33 @@ body {
     padding: 0;
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 90vh;
     font-size: 20px;
 }
   
 .main {
     height: 400px;
     width: 250px;
-    background: #3A3A38;
-    border-radius: 10px;
+    color:black;
     display: grid;
     place-items: center;
-    color: #fff;
     font-family: Lato;
-    border-radius: 15px;
+    font-weight: bold;
+}
+
+#selected_color {
+    background-color: none;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+}
+
+#hexCode {
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 120px;
+    padding: 0 10px;
 }
