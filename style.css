@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +14,6 @@ body {
   
 .main {
     height: 400px;
-    width: 250px;
     color:black;
     display: grid;
     place-items: center;
@@ -23,19 +21,12 @@ body {
     font-weight: bold;
 }
 
+/* the color box */
 #selected_color {
     background-color: none;
     outline: none;
     border: none;
-    height: 40px;
-    width: 70px;
+    height: 100px;
+    width: 140px;
     cursor: pointer;
-}
-
-#hexCode {
-    outline: none;
-    border: none;
-    height: 30px;
-    width: 120px;
-    padding: 0 10px;
 }

@@ -7,7 +7,7 @@ function myColor() {
     document.body.style.backgroundColor = color;
 
     // Store hex code
-    document.getElementById('hexCode').value = color;
+    document.getElementById('hexCode').textContent = color;
 }
 
 document.getElementById('selected_color').addEventListener('input', myColor);
