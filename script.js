@@ -6,7 +6,7 @@ function myColor() {
     // Set color as background
     document.body.style.backgroundColor = color;
 
-    // Store hex code
+    // Store hex code and display as text
     document.getElementById('hexCode').textContent = color;
 }
 
