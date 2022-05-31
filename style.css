@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lato:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+  
+.main {
+    height: 400px;
+    width: 250px;
+    background: #3A3A38;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-family: Lato;
+    border-radius: 15px;
+}
